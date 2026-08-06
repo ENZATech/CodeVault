@@ -27,4 +27,5 @@
         else{
             printf("Invalid input.");
         }
+        return 0;
     }
