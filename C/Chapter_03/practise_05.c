@@ -3,7 +3,7 @@ int main(){
     char x;
     
     printf("Enter a character: ");
-    scanf(" %c", &x);
+    scanf("%c", &x);
     
 
     if(x >= 'a' && x <= 'z'){
@@ -13,7 +13,7 @@ int main(){
         printf("You have typed an UPPER CASE aplhabetic character. i.e., %c \n", x);
     }
     else if(x >= '0' && x <= '9'){
-        printf("You have typed a numerical character.\n");
+        printf("You have typed a numerical character. i.e., %c \n", x);
     }
     else{
         printf("Invalid / special character\n");
