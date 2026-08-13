@@ -3,20 +3,15 @@
         int x = 0;
 
         while(x<4){
-                printf("The value of x is %d \n", x);
+                printf("%d \n", x);
         
-        x++;
+        x=x+1;
         }
 
-        while(x<=20){
+        while(x<=20);{
             if(x>=10){
-                printf("The value of x is %d \n", x);
+                printf("%d \n", x);
             }
-            /*
-            else {
-                printf("Invalid code. \n");
-            }
-            */
         x++;
         }
 
