@@ -10,9 +10,9 @@ int main() {
     printf("║             %s! 😎                  ║\n", name);
     printf("╠══════════════════════════════════════╣\n");
     printf("║                                      ║\n");
-    printf("║   Age++ ............... SUCCESS ✓     ║\n");
-    printf("║   Happiness ........... 100%% 💯       ║\n");
-    printf("║   Bugs ................ 0%% 🐛         ║\n");
+    printf("║   Age++ ............... SUCCESS ✓    ║\n");
+    printf("║   Happiness ........... 100%% 💯     ║\n");
+    printf("║   Bugs ................ 0%% 🐛       ║\n");
     printf("║   Dreams .............. LOADED 🚀    ║\n");
     printf("║   Future .............. COMPILING... ║\n");
     printf("║                                      ║\n");
