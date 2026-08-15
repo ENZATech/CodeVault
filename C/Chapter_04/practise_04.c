@@ -1,16 +1,16 @@
 #include<stdio.h>
     int main(){
-        int x;
+        int x = 0;
         int y;
-        int n = 1;
+        int n;
 
 
-        // Write  a program to sum first 10 natural numbers using for loop.
-        x = 10;
-        for(int x=10; x=0; n++){
-            y = y + n;
+        // Write a program to sum first 10 natural numbers using for loop.
+        
+        for(int n=1; n<=10; n++){
+            x = x + n;
         }
-        printf("The sum of first 10 natural numbers is: %d", y);
+        printf("The sum of first 10 natural numbers is: %d", x);
 
         return 0;
     }
