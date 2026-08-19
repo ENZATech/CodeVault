@@ -9,12 +9,13 @@ int main(){
     
     printf("Press 1 for addition, press 2 for substraction, press 3 for multiplication and 4 for division.");
     scanf("%d", &a);
-    printf("Enter the numbers you want to add one by one. \n");
-    printf("Enter 0 to see result. \n");
 
 
     do{
         if(a=1){
+        printf("Enter the numbers you want to add one by one. \n");
+        printf("Enter 0 to see result. \n");
+
         printf("Enter %d Number: ", n);
         scanf("%d", &x);
         y=y+x;
@@ -23,6 +24,9 @@ int main(){
 
         // Substraaction.
         else if(a=2){
+            printf("Enter the numbers you want to substract one by one. \n");
+            printf("Enter 0 to see result. \n");
+
             printf("Enter %d Number: ", n);
             scanf("%d", &x);
             y=y-x;
@@ -31,8 +35,13 @@ int main(){
 
         //Multiplication.
         else if(a=3){
-            printf("Enter %d Number: ", n);
+            printf("Enter the numbers you want to add one by one. \n");
+            printf("Enter 0 to see result. \n");
+
+            printf("Enter First Number: ", n);
             scanf("%d", &x);
+            printf("Enter Second Number: ", n);
+            scanf("%d", &);
             y=y*x;
             n++;
         }
