@@ -41,7 +41,7 @@ int main(){
             printf("Enter First Number: ", n);
             scanf("%d", &x);
             printf("Enter Second Number: ", n);
-            scanf("%d", &);
+            scanf("%d", &b);
             y=y*x;
             n++;
         }

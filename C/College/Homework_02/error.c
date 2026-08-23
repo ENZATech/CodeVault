@@ -15,8 +15,8 @@ int main() {
     int n = x;
     while (n <= y) {
         int prime = x;
-
         int i = 2;
+        
         while (i <= n / 2) {
             if (n % i == 0) {
                 prime = 0;
