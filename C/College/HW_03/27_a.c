@@ -1,33 +1,31 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h> 
+int main() {
     int x;
-    int y;
-    int z;
 
-    printf("Enter the number to find prime numbers in between 1 to n: ");
+    printf("Enter number : ");
     scanf("%d", &x);
-    printf("2\n");
 
-    int i=1;
+    printf("Prime numbers between 1 and %d are :\n", x);
 
-    while(i<x){
-        int n=2;
-        while(n<i){
-            if(i%n!=0){
-                n++;
+    int n = 2;
+    while (n <= x) {
+        int prime = 1;
+
+        int i = 2;
+        while (i <= n / 2) {
+            if (n % i == 0) {
+                prime = 0;
+                i++;
+                break;
             }
-            else{
-                n++;
-                continue;
-            }
+            i++;
         }
-        printf("%d \n", i);
-        i++;
+        if (prime) {
+            printf("%d\n", n);
+        }
+        n++;
     }
-
-    return 0;
 }
-
 /*
 #include <stdio.h>
 
@@ -62,4 +60,4 @@ int main() {
 
     return 0;
 }
-    */ #?
+    */ 

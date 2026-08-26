@@ -18,7 +18,7 @@ int main(){
         }
         n++;
     }
-    printf("%d is the HCF of these two given numbers. ", z);
+    printf("HCF of these two given numbers is: %d", z);
 
     return 0;
 }

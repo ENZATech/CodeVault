@@ -1,11 +1,17 @@
 #include<stdio.h>
 int main(){
-    int x;
-    int y;
-    int z;
+    int callCount;
+    int y=0;
+    int z=1;
+    int a;
 
-    printf("");
-    scanf("");
+    printf("Enter the number of terms to generate Fibonaci sequence: ");
+    scanf("%d", &callCount);
 
-    return 0;
+    for(int n = 1; n<=callCount; n++){
+        printf("%d \n", y);
+        a=y+z;
+        y=z;
+        z=a;
+    }
 }

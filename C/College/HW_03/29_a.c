@@ -3,28 +3,27 @@ int main(){
     int x;
     int y;
     int z;
-    
-    printf("Enter the number to find its prime factorisation: ");
+     
+    // Prime Factors of all numbers.
+    printf("Enter the number to find its all factors: ");
     scanf("%d", &x);
 
     int i=x;
-//    while(i!=1){
-        int n;
-        n=2;
-        while(n<i){
-
+    printf("The factors of given input: ");
+    while(i!=1){
+        int n=2;
+        while(i>=n){
             if(i%n==0){
                 i=i/n;
-                printf("%d \n", n);
+                printf("%d, ", n);
             }
             else{
                 n++;
                 continue;
             }
-        n++;
         }
-
-//    }
+        n++;
+    }
 
     return 0;
-}#?
+}

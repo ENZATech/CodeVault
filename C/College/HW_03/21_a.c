@@ -5,6 +5,7 @@ int main(){
     int i;
     int z=1;
 
+    // Find Power of a number using While loop.
     printf("Enter the base: ");
     scanf("%d", &x);
 
