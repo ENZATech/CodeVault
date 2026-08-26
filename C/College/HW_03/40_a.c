@@ -4,69 +4,39 @@ int main(){
     int y;
     int z=0;
     int a=1;
-    int b;
-    int c;
+    int c=0;
     
     printf("Enter the binary number: ");
     scanf("%lld", &x);
 
     long long i=x;
     int n=1;
-    while(i!=0){
-        y=i%10;
-        i=i/10;
-        int m=n;
-        while(m!=m-1){
-            z=z+(y*a);
-            m--;
-            a=a*2;
-            printf("%d \n", a);
-            printf("%d \n", z);
+
+    long long b=i;
+    while(b!=0){
+        c=b%10;
+        b=b/10;
+        if(c!=0 && c!=1){
+            break;
         }
-        n++;
     }
-    printf("The Decimal form of given input is: ");
-    printf("%d", z);
-
-    return 0;
-}
-
-
-
-
-
-
-
-
-
-
-/*#include<stdio.h>
-int x;
-int y;
-int z=0;
-
-int main(){
-    printf("Enter the binary form: ");
-    scanf("%d", &x);
-
-    float sum=1/2;
-    int i=x;
-    int n=0;
-
-    while(i!=0){
-        y=i%10;
-        i=i%10;
-        int m=n;
-        if(y==1){
-            while(m!=0){
-                sum=sum*2;
+    if(c!=0 && c!=1){
+        printf("Invalid Input.");
+    }
+    else{
+        while(i!=0){
+            y=i%10;
+            i=i/10;
+            int m=n;
+            while(m!=n-1){
+                z=z+(y*a);
                 m--;
+                a=a*2;
             }
-            z=z+sum;
             n++;
         }
-    }
-    printf("The decimal form of give input is: ");
+    printf("The Decimal form of given input is: ");
     printf("%d", z);
+    }
+    return 0;
 }
-*/
