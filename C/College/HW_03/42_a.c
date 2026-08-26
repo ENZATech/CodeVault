@@ -2,11 +2,15 @@
 int main(){
     long long x;
     int y;
+    int z;
+    int sum = 0;
+
     int dec=0;
     int rev=1;
 
-    // Binary number system to Octal number system.
-    printf("Enter the Binary number: ");
+    // Octal Number system to Binary Number system.
+    
+    printf("Enter the octal number: ");
     scanf("%lld", &x);
 
     long long i=x;
@@ -64,48 +68,29 @@ int main(){
         dec = dec + z * rev;
         rev = rev * 10;
     }
-    printf("The Octal form of given input is: ");
-    printf("%d", dec);
-    return 0;
-}
 
-/*
-#include <stdio.h>
-
-int main() {
-    long long binary;
-    long long octal = 0;
-    long long place = 1; 
-
-    printf("Enter the binary number: ");
-    scanf("%lld", &binary);
-
-    // Outer loop: Processes 3 bits in one jump
-    while (binary != 0) {
-        int chunk = binary % 1000; // Extracts the last 3 binary digits (e.g., 101)
-        int octal_digit = 0;
-        int power = 1;             // 1 (2^0), 2 (2^1), 4 (2^2)
-
-        // Inner loop: Converts the 3-bit chunk into a single octal digit (0 to 7)
-        while (chunk != 0) {
-            int bit = chunk % 10;
-            octal_digit = octal_digit + (bit * power);
-            power = power * 2;
-            chunk = chunk / 10;
-        }
-
-        // Add the octal digit to the result using place value
-        octal = octal + (octal_digit * place);
-        place = place * 10;
-
-        binary = binary / 1000; // Drop the 3 processed binary digits
+    long long z_1=0;
+    int n_1;
+    if (dec == 0) {
+        printf("The Binary form of given input is: 0\n");
+        return 0;
     }
-
-    printf("The Octal form of given input is: %lld\n", octal);
+    
+    int j=dec;
+    while(j!=0){
+        int p=1;
+        n_1=1;
+        while(p*2<=j){
+                n_1=n_1*10;
+                // printf("%d \n", n);
+                // printf("%d \n", i);
+                // break;
+                p=p*2;
+        }
+        z_1 = z_1 + n_1; 
+        j = j - p;
+    }
+    printf("%lld \n", z_1);
 
     return 0;
 }
-    
-// Grabs the last three digits at once (e.g., 111000 % 1000 gives 0, and 111000 / 1000 leaves 111).
-// The inner while loop only needs to run on the 3-digit chunk, doubling power ($1 \to 2 \to 4$) automatically without needing manual conditions like n == 3*m - 1.
-*/

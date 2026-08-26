@@ -6,6 +6,7 @@ int main(){
     int a=1;
     int c=0;
     
+    // Binary Number system to Decimal Number system.
     printf("Enter the binary number: ");
     scanf("%lld", &x);
 
