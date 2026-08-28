@@ -5,6 +5,7 @@ int main(){
     int z=0;
     int a=1;
 
+    // Ones's complement of binary.
     printf("Enter the binary: ");
     scanf("%d", &x);
 

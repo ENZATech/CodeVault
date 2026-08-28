@@ -23,35 +23,32 @@ int main(){
             k=j%10;
             j=j/10;
             a=a+k*b;
-            c=k*b;
             b=b*16;
-
-        if(c<=9){
+        }
+        if(a<=9){
             printf("%d", a);
         }
-        else if(c==10){
+        else if(a==10){
             printf("A");
         }
-        else if(c==11){
+        else if(a==11){
             printf("B", a);
         }
-        else if(c==12){
+        else if(a==12){
             printf("C", a);
         }
-        else if(c==13){
+        else if(a==13){
             printf("D", a);
         }
-        else if(c==14){
+        else if(a==14){
             printf("E", a);
         }
-        else if(c==15){
+        else if(a==15){
             printf("F", a);
         }
         else{
             printf("If this is showing then unfortunately it's an error.!");
         }
-        }
-        
 
     }
 

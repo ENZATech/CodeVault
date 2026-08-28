@@ -14,7 +14,7 @@ int main(){
 
     while(j<=n){
         z=x+y;
-
+0..
         int k=1;
         while(k<=j){
             printf(" ");
