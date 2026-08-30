@@ -1,29 +1,47 @@
 #include<stdio.h>
 int main(){
-    int x;
+    long long x;
     int y;
     int z;
 
-    int a=0;
-    int b=1;
     int c;
+    long long p=1;
     
-    // Binary to Hexadecimal.
+    // Binary to Hexadecimal Number system.
     printf("Enter the binary: ");
-    scanf("%d", &x);
+    scanf("%lld", &x);
 
-    int i=x;
-    while(i!=0){
-        y=i*10000;
+    if(x==0){
+        printf("The Hexadecimal form is: 0 \n");
+        return 0;
+    }
+
+    long long i=x;
+    while(i>=10000){
+        p=p*10000;
         i=i/10000;
+    }
+    i=x;
+    while(p>0){
+        y=i/p;
+        i=i%p;
+        p=p/10000;
 
-        int j=i;
+        int a=0;
+        int b=1;
+        int j=y;
         int k;
         while(j!=0){
             k=j%10;
             j=j/10;
             a=a+k*b;
-            b=b*16;
+            b=b*2;
+
+            /*
+            printf("%d \n", k);
+            printf("%d \n", j);
+            printf("%d \n", a);
+            */
         }
         if(a<=9){
             printf("%d", a);

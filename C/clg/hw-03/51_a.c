@@ -1,32 +1,27 @@
 #include<stdio.h>
 int main(){
-    int x=1;
-    int y=0;
+    int x;
+    int y;
     int z;
-    int n=0;
-    int m=0;
-    
-    int j=1;
 
-    // Pascal triangle upto to n rows.
-    printf("Enter the number of rows of pascal triangle: ");
-    scanf("%d", &n);
+    int a=0;
 
-    while(j<=n){
-        z=x+y;
-0..
-        int k=1;
-        while(k<=j){
-            printf(" ");
-            k++;
+    // Pascal Triangle;
+    printf("Enter the number of rows to print: ");
+    scanf("%d", &x);
+
+    int n=x;
+    while(n>0){
+        printf(" ");
+        int m=0;
+        while(m<n){
+            printf("%d ", a);
+            a++;
+            m++;
         }
-        int q=1;
-        while(q<=j){
-            printf("%d \n", z);
-            q++;
-        }
-        j++;
+        printf("\n");
+        n--;
+
     }
-
     return 0;
 }
