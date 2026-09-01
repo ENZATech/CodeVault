@@ -1,15 +1,45 @@
 #include<stdio.h>
 int main(){
-    int x;
+    long long x;
     int y;
     int z;
 
+    int c;
     // All strong numbers bwteen 1 to n;
     printf("Enter the value of n: ");
-    scanf("%d", &x);
+    scanf("%lld", &x);
 
-    int i=x;
-    while(i<0)
+    long long n=1;
+    while(n<x){
+        long long i=n;
+        long long b=0;
+        while(i!=0){
+            y=i%10;
+            i=i/10;
+
+            long long a=1;
+            z=y;
+            while(z!=0){
+                a=a*z;
+                z--;
+                // printf("%d \n", a);
+                // printf("%d \n", z);
+            }
+            b=b+a;
+            c=b;
+            // printf("%d \n", b);
+        }
+        if(b==n){
+            printf("%lld is a Strong number.! \n", n);
+        }
+        else{
+            n++;
+            continue;
+        }
+
+        n++;
+    }
+    // printf("%d \n", c);
 
     return 0;
 }

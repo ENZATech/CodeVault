@@ -21,15 +21,14 @@ int main(){
         while(z!=0){
             a=a*z;
             z--;
-            printf("%d \n", a);
-            printf("%d \n", z);
+            // printf("%d \n", z);
             // printf("%d \n", a);
         }
         b=b+a;
         c=b;
-        printf("%d \n", b);
+        // printf("%d \n", b);
     }
-    printf("%d \n", c);
+    // printf("%d \n", c);
     if(b==x){
         printf("This is a Strong number.!");
     }
