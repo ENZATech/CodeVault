@@ -5,7 +5,7 @@ int main(){
     int z;
 
     int c;
-    // All strong numbers bwteen 1 to n;
+    // Program to find all strong numbers bwteen 1 to n;
     printf("Enter the value of n: ");
     scanf("%lld", &x);
 

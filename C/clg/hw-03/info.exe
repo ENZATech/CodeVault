@@ -1,10 +1,8 @@
 // Questions yet to be attempted...
 18_a.c
 
-30_a.c
-31_a.c
-33_a.c  Print all perfect number between 1 to n;
-35_a.c  Print all perfect number between 1 to n;
+32_a.c  Wrong logic have been used in this. Rewrite the logic again.
+33_a.c  Wrong logic have been used in this, and answer incomplete.
 
 44_a.c
 47_a.c  The output of the given Decimal is reversed and can't be reversed bcz of int or char;
