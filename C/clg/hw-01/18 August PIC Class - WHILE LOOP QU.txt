@@ -1,0 +1,16 @@
+18 August PIC Class - WHILE LOOP QUESTIONS : 
+
+01. write a C program to print no. from 1 to n
+02. write a C program to add no. from 1 to n
+03. write a C program to print even numbers from 1 to n
+04. write a C program to print odd numbers from 1 to n
+05. write a C program to print prime numbers from 1 to n
+
+06. write a C program to print even no. from m to n
+07. write a C program to odd no. from m to n
+08. write a C program to even no. from m to n
+09. write a C program to prime no. from m to n
+10. write a C program to reverse a given integer no.
+11. write a C program to sum until the user enter a negative number
+12. write a C program that prompts the user to enter a positive integer and then calculates and prints the sum of the squares of 
+each digit in that number.
