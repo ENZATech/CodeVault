@@ -2,22 +2,25 @@
 int main(){
     int x;
     int y;
+    int a;
 
-    //Number Pattern 28;
+    // Number Pattern 38;
     printf("Enter the number: ");
     scanf("%d", &x);
 
     int n=0;
     while(n<x){
         int m=n+1;
-        int a=0;
         while(m>0){
-            a=a+1;
-            if(a%2!=0){
+            if(m==n+1 || n==x-1){
                 printf("1");
                 m--;
             }
-            else if(a%2==0){
+            else if(m==1 || n==x-1){
+                printf("1");
+                m--;
+            }
+            else{
                 printf("0");
                 m--;
             }

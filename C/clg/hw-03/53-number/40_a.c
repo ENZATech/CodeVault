@@ -9,16 +9,20 @@ int main(){
 
     int n=0;
     while(n<x){
+        int a=1;
+        int b=1;
         int m=n+1;
-        int a=0;
         while(m>0){
-            a=a+1;
-            if(a%2!=0){
-                printf("1");
+            if(n%2!=0){
+                a=2*b;
+                printf("%d", a);
+                b=b+1;
                 m--;
             }
-            else if(a%2==0){
-                printf("0");
+            else if(n%2==0){
+                printf("%d", a);
+                a=2*b+1;
+                b=b+1;
                 m--;
             }
         }
