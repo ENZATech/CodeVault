@@ -1,23 +1,22 @@
 #include<stdio.h>
 int main(){
     int x;
-    int y;
-    int z=0;
-    int n=1;
+    int d=1;
 
-    //Decimal Number system to Octal Number system.
-    printf("Enter the decimal form: ");
+    // Decimal number system to Octal number system.
+    printf("Enter the number: ");
     scanf("%d", &x);
 
-    int i=x;
-    while(i!=0){
-        y=i%8;
-        z= z + (y*n);
-        n=n*10;
-        i=i/8;
+    int t=x;
+    while(t/d>=8){
+        t=t/8;
+        d=d*8;
     }
-    printf("The given input in Octal number system is: ");
-    printf("%d", z);
-    
+    t=x;
+    while(d>0){
+        printf("%d", t/d);
+        t=t%d;
+        d=d/8;
+    }
     return 0;
 }

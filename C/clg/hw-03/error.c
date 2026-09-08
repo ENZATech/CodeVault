@@ -1,54 +1,22 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     int x;
-    int y;
+    int d=1;
 
-    printf("Enter the Decimal Number: ");
+    // Decimal number system to Octal number system.
+    printf("Enter the number: ");
     scanf("%d", &x);
 
-    int n = 1;
-
-    // Special case for 0
-    if (x == 0) {
-        printf("0");
-        return 0;
+    int t=x;
+    while(t/d>=8){
+        t=t/8;
+        d=d*8;
     }
-
-    // Step 1: Find the highest place value of 16 that fits into x
-    while (x / n >= 16) {
-        n = n * 16;
+    t=x;
+    while(d>0){
+        printf("%d", t/d);
+        t=t%d;
+        d=d/8;
     }
-
-    // Step 2: Extract and print digits from left to right
-    while (n != 0) {
-        y = x / n;    // Extracts the leftmost digit
-        x = x % n;    // Keeps the remaining part of the number
-        n = n / 16;   // Moves to the next place value down
-
-        if (y <= 9) {
-            printf("%d", y);
-        }
-        else if (y == 10) {
-            printf("A");
-        }
-        else if (y == 11) {
-            printf("B");
-        }
-        else if (y == 12) {
-            printf("C");
-        }
-        else if (y == 13) {
-            printf("D");
-        }
-        else if (y == 14) {
-            printf("E");
-        }
-        else if (y == 15) {
-            printf("F");
-        }
-    }
-
-    printf("\n");
     return 0;
 }

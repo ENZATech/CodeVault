@@ -1,35 +1,22 @@
 #include<stdio.h>
 int main(){
     int x;
-    int y;
-    long long z=0;
-    int sum=0;
-    int n;
+    int d=1;
 
-    // Decimal number system to Binary Number system.
-    printf("ENter the decimal form: ");
+    printf("enter the number: ");
     scanf("%d", &x);
 
-    if (x == 0) {
-        printf("The Binary form of given input is: 0\n");
-        return 0;
+    int t=x;
+    while(t>=2){
+        t=t/2;
+        d=d*2;
     }
-    
-    int i=x;
-    while(i!=0){
-        int p=1;
-        n=1;
-        while(p*2<=i){
-                n=n*10;
-                // printf("%d \n", n);
-                // printf("%d \n", i);
-                // break;
-                p=p*2;
-        }
-        z = z + n; 
-        i = i - p;
+    t=x;
+    while(d>0){
+        printf("%d", t/d);
+        t=t%d;
+        d=d/2;
     }
-    printf("%lld \n", z);
 
     return 0;
 }
