@@ -1,0 +1,17 @@
+Pointer:
+    Pointer is a variable which stores value of another variable.
+    address of (&) operator.
+
+    eg:
+        int i=72;
+        int* j= &i;     // j is a pointer pointing to i.
+        printf("%p is the address of 'i'", &i);     // %p is used for pointer type address.
+        printf("%u is the address of 'i'", &i);     // %u is unsigned integer and is used for integer type address.
+        printf("%p is the address of 'i'", j );     // &i == j .
+
+Value of Address operator: (*)
+    The value of address operator is used to obtain the value present at a given memory address.
+    eg:
+        *(&i) = 72
+        *(&j) = 87994
+        **(&j) = 72
