@@ -4,5 +4,5 @@ int main(){
 
     do{
 
-    }while();
+    }while(x);
 }
