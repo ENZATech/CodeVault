@@ -3,22 +3,24 @@
 Ques no.    Question:                                                   Status                  File Address
 
 Ques 16:    Array Sum & Average:                                        Completed.              
-Ques 17:    Minimum and maximum:                                        Completed.              
+Ques 17:    Minimum and maximum:                                        Completed.              p_13.c
 Ques 18:    Linear Search:                                              Not yet.                
             {10, 45, 32, 70}, searching for 32 returns index 2. 
             Searching for 99 returns -1.
-Ques 19:    Occurence Counter:                                          Not yet.                
-Ques 20:    Count Even and Odd:                                         Completed.              
+Ques 19:    Occurence Counter:                                          Completed.              p_14.c 
+Ques 20:    Count Even and Odd:                                         Completed.              p_11.c
 Ques 21:    In-place array reversal (without any other array.)          Not yet.                
-Ques 22:    Array Reverse:                                              Completed.              
+Ques 22:    Array Reverse:                                              Completed.              p_12.c
 Ques 23:    Array Palindrome Checker:                                   Not yet.                
 Ques 24:    //Not so important,.
-Ques 25:    Left Shift elements in array by 1:                          Not yet.                
+Ques 25:    Left Shift elements in array by 1:                          Completed.              p_16.c
 Ques 26:    Second Largest Value in an array:                           Not yet.                
-Ques 27:    Array merger:                                               Not yet.                
+Ques 27:    Array merger:                                               Completed.              p_17.c
 Ques 28:    Sum of each rows of 2D matrix:                              Not yet.                
 Ques 29:    Matrix Transpose:                                           Not yet.                
 Ques 30:    Duplicate any repeating elements by 0:                      Not yet.                
+
+Ques        Fibonacci series using fn and array:                        Completed.              p_15.c
 
 
 
