@@ -16,8 +16,9 @@ Ques 24:    //Not so important,.
 Ques 25:    Left Shift elements in array by 1:                          Completed.              p_16.c
 Ques 26:    Second Largest Value in an array:                           Not yet.                
 Ques 27:    Array merger:                                               Completed.              p_17.c
-Ques 28:    Sum of each rows of 2D matrix:                              Not yet.                
-Ques 29:    Matrix Transpose:                                           Not yet.                
+Ques 28:    Sum of each rows of 2D matrix:                              Not yet.                p_19.c
+Ques   :    Sum of each COlumn of 2D matrix:                            Not yet.                p_18.c
+Ques 29:    Matrix Transpose:                                           Completed.              p_20.c
 Ques 30:    Duplicate any repeating elements by 0:                      Not yet.                
 
 Ques        Fibonacci series using fn and array:                        Completed.              p_15.c

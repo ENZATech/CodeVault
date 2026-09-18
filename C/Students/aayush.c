@@ -16,7 +16,7 @@ int main() {
     printf("║   Dreams .............. LOADED 🚀    ║\n");
     printf("║   Future .............. COMPILING... ║\n");
     printf("║                                      ║\n");
-    printf("║   printf(\"Keep Coding, Aayush! 💻\");  ║\n");
+    printf("║   printf(\"Keep Coding, Aayush! 💻\" ║\n");
     printf("║                                      ║\n");
     printf("╚══════════════════════════════════════╝\n");
 
