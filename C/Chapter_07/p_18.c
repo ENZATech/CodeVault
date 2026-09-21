@@ -1,40 +1,38 @@
-//Column sum of 2D Matrix;
+// Column Sum of a 2D array;
 #include<stdio.h>
-int csum(int [][4], int , int);
-int csum(int a[][4], int n, int m){
-    
-    for(int i=0; i<n; i++){
+int csum(int [][3], int );
+int csum(int a[][3], int n){
+    for(int j=0; j<n; j++){
         int sum=0;
-        for(int j=0; j<m; j++){
-            sum=sum + a[i][j];
+        for(int i=0; i<n; i++){
+            sum = sum+a[i][j];
         }
         printf("%d\t", sum);
     }
 }
 
 int main(){
-    int x[4][4];
-    int y;
+    int x[3][3];
+    int n;
 
-    for(int i=0; i<4; i++){
-        printf("Enter %d Column: \n", i+1);
-
-        for(int j=0; j<4; j++){
+    for(int i=0; i<3; i++){
+        printf("Enter %d row: \n", i+1);
+        for(int j=0; j<3; j++){
             scanf("%d", &x[i][j]);
         }
+        n=i+1; 
     }
+
     printf("\n");
 
-    for(int i=0; i<4; i++){
-
-        for(int j=0; j<4; j++){
-            printf("%d\t", x[j][i]);
+    for(int i=0; i<n; i++){
+        for(int j=0; j<3; j++){
+            printf("%d\t", x[i][j]);
         }
         printf("\n");
     }
-    printf("\n");
 
-    csum(x, 4, 4);
+    csum(x, n);
 
     return 0;
 }
