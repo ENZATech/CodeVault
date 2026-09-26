@@ -11,15 +11,15 @@ Ques 19:    Occurence Counter:                                          Complete
 Ques 20:    Count Even and Odd:                                         Completed.              p_11.c
 Ques 21:    In-place array reversal (without any other array.)          Not yet.                
 Ques 22:    Array Reverse:                                              Completed.              p_12.c
-Ques 23:    Array Palindrome Checker:                                   Not yet.                
+Ques 23:    Array Palindrome Checker:                                   Not yet.                p_21.c
 Ques 24:    //Not so important,.
 Ques 25:    Left Shift elements in array by 1:                          Completed.              p_16.c
 Ques 26:    Second Largest Value in an array:                           Not yet.                
 Ques 27:    Array merger:                                               Completed.              p_17.c
-Ques 28:    Sum of each rows of 2D matrix:                              Not yet.                p_19.c
-Ques   :    Sum of each COlumn of 2D matrix:                            Not yet.                p_18.c
+Ques 28:    Sum of each rows of 2D matrix:                              Completed.              p_19.c
+Ques   :    Sum of each COlumn of 2D matrix:                            Completed.              p_18.c
 Ques 29:    Matrix Transpose:                                           Completed.              p_20.c
-Ques 30:    Duplicate any repeating elements by 0:                      Not yet.                
+Ques 30:    Duplicate any repeating elements by 0:                      Completed.              p_22.c              
 
 Ques        Fibonacci series using fn and array:                        Completed.              p_15.c
 

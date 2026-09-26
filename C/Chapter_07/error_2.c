@@ -1,31 +1,41 @@
-#include <stdio.h>
+// Second largest Number in an array.
+#include<stdio.h>
+int sec_max(int [], int);
+int sec_max(int a[], int n){
+    int max=0;
+    int m;
 
-void incr(int a[], int n) {
-    // Outer loop: target rank 'k' from smallest (n-1 elements greater) to largest (0 elements greater)
-    for (int k = n - 1; k >= 0; k--) {
-        for (int i = 0; i < n; i++) {
-            int m = 0;
-            // Count how many elements are strictly greater than a[i]
-            for (int j = 0; j < n; j++) {
-                if (a[i] < a[j]) {
-                    m++;
-                }
-            }
-            // If exactly 'k' elements are greater, a[i] is the correct number to print next
-            if (m == k) {
-                printf("%d ", a[i]);
-                break; 
-            }
+    for(int i=0; i<n; i++){
+        if(a[i]>max){
+            m=max;
+            max=a[i];
+            // m=i;
         }
     }
-    printf("\n");
+    max=0;
+    for(int i=0; i<n; i++){
+        if(a[i]>max && max!=m){
+            max=a[i];
+        }
+    }
+
+    printf("%d", max);
 }
 
-int main() {
-    int arr[50] = {5, 4, 8, 1, 7, 9};
 
-    printf("The elements in increasing order: ");
-    incr(arr, 6);
+int main(){
+    int x[100];
+    int n;
 
-    return 0;
+    printf("ENter the arrays (0 to exit): \n");
+    for(int i=0; i<100; i++){
+        scanf("%d", &x[i]);
+        if(x[i]==0){
+            i--; 
+            break;
+        }
+        n=i+2;
+    }
+
+    sec_max(x, n);
 }

@@ -2,19 +2,25 @@
 #include<stdio.h>
 int sec_max(int [], int );
 int sec_max(int a[], int n){
-    int m;
+    int max;
 
-    for(int i=0; i<n; i++){
-        int max; 
+    for(int i=0; i<n; i++){ 
         for (int j=0; j<n; j++){
             if(a[i]<a[j]){
                 max=a[i];
-                m=j;
             }
         }
     }
 
-    printf("%d", a[m]);
+    int sec_max;
+    for(int i=0; i<n; i++){
+        if(max){
+            
+        }
+
+    }
+
+    printf("%d", a[]);
 
 }
 

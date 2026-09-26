@@ -1,38 +1,55 @@
-// Column Sum of a 2D array;
+// Second largest value in an array;
 #include<stdio.h>
-int csum(int [][3], int );
-int csum(int a[][3], int n){
-    for(int j=0; j<n; j++){
-        int sum=0;
-        for(int i=0; i<n; i++){
-            sum = sum+a[i][j];
+int sec_max(int [], int);
+int sec_max(int a[], int n){
+    int max=0;
+    int m;
+    for(int i=0; i<n+1; i++)
+    {
+        int m=0;
+        for(int j=0; j<n+1; j++){
+            if(a[i]>a[j])
+            {
+                m++;
+            }
+            if(m==n)
+            {
+                printf("The maximum number in this array is: %d \n", a[i]);
+            }
         }
-        printf("%d\t", sum);
     }
+    for(int i=0; i<n; i++){
+        if(a[i]>max){
+            m=max;
+            max=a[i];
+            // m=i;
+        }
+    }
+    max=0;
+    for(int i=0; i<n; i++){
+        if(a[i]>max && max!=m){
+            max=a[i];
+        }
+    }
+    printf("Second largest number is: %d", max);
+
 }
 
 int main(){
-    int x[3][3];
+    int x[100];
     int n;
 
-    for(int i=0; i<3; i++){
-        printf("Enter %d row: \n", i+1);
-        for(int j=0; j<3; j++){
-            scanf("%d", &x[i][j]);
+    printf("Enter the numbers(0 to exit): ");
+    for(int i=0; i<100; i++){
+        scanf("%d", &x[i]);
+        if(x[i]==0){
+            i--;
+            break;
         }
-        n=i+1; 
+        n=i+2;
     }
 
-    printf("\n");
-
-    for(int i=0; i<n; i++){
-        for(int j=0; j<3; j++){
-            printf("%d\t", x[i][j]);
-        }
-        printf("\n");
-    }
-
-    csum(x, n);
+    sec_max(x, n);
 
     return 0;
 }
