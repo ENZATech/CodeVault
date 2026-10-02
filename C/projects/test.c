@@ -1,8 +1,8 @@
 // Better version of calculator.
 // #calc v2.0
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main(){
     double nums[100];
     char ops[100];
     int n_count = 0;
