@@ -78,7 +78,7 @@ int main(){
         op_count--;
     }
 
-    printf("Result = %.4g\n", nums[0]);
+    printf("Result = %.2f\n", nums[0]);
 
     return 0;
 }
