@@ -1,3 +1,5 @@
-Chapter_06/02_other_types.c
-Chapter_07/p_03.c
-chapter_07/p_10.c
+Chapter_06/ 02_other_types.c
+Chapter_07/ p_03.c
+chapter_07/ p_10.c
+
+chapter_08/ 03_strings.c
