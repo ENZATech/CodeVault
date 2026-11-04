@@ -1,4 +1,4 @@
-//Adding two numver using pointers;
+//Adding two number using pointers;
 #include<stdio.h>
 
 int sum(int *, int *);

@@ -1,3 +1,4 @@
+// Sum of numbers using call by reference;
 #include<stdio.h>
 int sum(int a, int *b){
     *b = *b + a;

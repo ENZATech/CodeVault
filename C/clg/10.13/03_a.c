@@ -1,3 +1,4 @@
+// Finding fibonacci series upto n terms using recursion;
 #include<stdio.h>
 
 int fib(int, int, int);

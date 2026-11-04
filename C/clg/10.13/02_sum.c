@@ -1,4 +1,4 @@
-// Sm of first n natural number using recursion;
+// Sum of first n natural number using recursion;
 #include<stdio.h>
 
 int sum(int );

@@ -1,3 +1,4 @@
+// Swapping number using call by reference;
 #include<stdio.h>
 
 void swap(int *, int *);

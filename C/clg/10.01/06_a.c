@@ -1,3 +1,4 @@
+// Sorting array in increasing order using function;
 #include<stdio.h>
 // 5, 4, 8, 1, 7, 9
 int incr(int [], int);
