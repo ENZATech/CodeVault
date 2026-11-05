@@ -4,7 +4,7 @@ int main(){
     int d=1;
 
     // Decimal number system to Octal number system.
-    printf("Enter the number: ");
+    printf("Enter the Decimal number: ");
     scanf("%d", &x);
 
     int t=x;
@@ -13,6 +13,7 @@ int main(){
         d=d*8;
     }
     t=x;
+    printf("Octal number: ");
     while(d>0){
         printf("%d", t/d);
         t=t%d;

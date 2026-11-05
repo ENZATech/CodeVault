@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     int x;
-    int y;
 
     //Plus Star pattern;
     printf("Enter the number: ");
