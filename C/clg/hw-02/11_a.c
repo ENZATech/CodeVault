@@ -1,3 +1,4 @@
+// Sum of squares of digits of a number.
 #include<stdio.h>
 int main(){
     int x;

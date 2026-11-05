@@ -1,14 +1,17 @@
-09.29/01_a.c        Sum of numbers using Function calling;
-09.29/02_a.c        Factorial of number using function calling;
-09.29/03_a.c        Sum of numbers using call by reference;
-10.01/03_a.c        Swapping number using call by reference;
-10.01/06_a.c        Sorting array in increasing order using function;
-10.01/08_a.c        Reversing array using function;
-10.01/10_a.c        Array Palindrome checker using Function;
-10.06/02_a.c        Swapping numbers using pointers;
-10.13/01_a.c        Finding power of a number using recursion;
-10.13/02_sum.c      Finding sum of first n natural number using recursion;
-10.13/05_recur.c    Finding factorial of a number using recursion;
+09.29/01_a.c        Sum of numbers using Function calling;          //
+09.29/02_a.c        Factorial of number using function calling;     //
+09.29/03_a.c        Sum of numbers using call by reference;         //
+10.01/03_a.c        Swapping number using call by reference;        //
+10.01/06_a.c        Sorting array in increasing order using function;   //
+10.01/08_a.c        Reversing array using function;                 //
+10.01/10_a.c        Array Palindrome checker using Function;        //
+10.06/02_a.c        Swapping numbers using pointers;                //
+10.13/01_a.c        Finding power of a number using recursion;      //
+10.13/02_sum.c      Finding sum of first n natural number using recursion;  //
+10.13/05_recur.c    Finding factorial of a number using recursion;  //
 10.13/03_a.c        Finding fibonacci series upto n terms using recursion;
 10.16/03_a.c        finding largest number in an array;
-10.16//
+10.16/08_a.c        Maximum and minimum numbers in an array using recursion;
+10.16/09_a.c        To search an element in an array;
+10.16/10_a.c        Finding frequency of each element in an array;
+10.28/09_a2.c       C program to insert an element in an array;

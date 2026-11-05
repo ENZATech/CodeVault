@@ -1,3 +1,4 @@
+// C program to print reverse of a given number.
 #include<stdio.h>
 int main(){
     int x;
